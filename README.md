@@ -25,8 +25,7 @@
 -   Distribution: The dataset is balanced, with subsets containing an equal number of images.
 -   ## Sample Pictorial Representation of Skin Types
   ![image](https://github.com/user-attachments/assets/704bbadf-198a-40a2-a3fe-098cb0afc2e2)
-## Building, Training, and Evaluating a CNN Model for Multi-Class Classification with Data Augmentation and Class Imbalance Handling
-
+## Building,-Training,-and-Evaluating-a-CNN-Model-for-Multi-Class-Classification-with-Data-Augmentation-and-Class-Imbalance-Handling
 ## Conclusions
 - Conclusion 1 from the analysis
 - Conclusion 2 from the analysis
