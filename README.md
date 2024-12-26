@@ -25,6 +25,9 @@
 -   Distribution: The dataset is balanced, with subsets containing an equal number of images.
 -   ## Sample Pictorial Representation of Skin Types
   ![image](https://github.com/user-attachments/assets/704bbadf-198a-40a2-a3fe-098cb0afc2e2)
+-   ## Sample Pictorial Representation of Skin Types
+  ![image](https://github.com/user-attachments/assets/c863fe2c-f455-4b82-8e52-6e37a3bc0c57)
+
 ## Building,-Training,-and-Evaluating-a-CNN-Model-for-Multi-Class-Classification-with-Data-Augmentation-and-Class-Imbalance-Handling
 - ## Model Approach for Skin Cancer Classification using Skin Lesion Images
 - Rescaling Layer: Normalizes image pixel values from [0, 255] to [0, 1].
