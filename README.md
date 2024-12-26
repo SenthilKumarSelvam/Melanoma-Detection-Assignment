@@ -57,17 +57,32 @@
 - ## Solutions:
 -   To address this, data augmentation, regularization (dropout, L2), early stopping, and batch normalization are recommended to improve generalization.
   
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- ## Conclusion 2 from the analysis of the model-1
+  ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
+- ## Observations:
+-   
+- ## Solutions:
+- ## Conclusion 3 from the analysis of the model-1
+  ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
+- ## Observations:
+-   
+- ## Solutions:
+- ## Conclusion 4 from the analysis of the model-1
+  ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
+- ## Observations:
+-  
+- ## Solutions:
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python - version 3.11.4
+- Matplotlib - version 3.7.1
+- Numpy - version 1.24.3
+- Pandas - version 1.5.3
+- Seaborn - version 0.12.2
+- Tensorflow - version 2.17.0
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
@@ -79,11 +94,4 @@ Give credit here.
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
-
-
-<!-- Optional -->
-<!-- ## License -->
-<!-- This project is open source and available under the [... License](). -->
-
-<!-- You don't have to include all sections - just the one's relevant to your project -->
+Created by [@senthilkumarselvam] - feel free to contact me!
