@@ -47,7 +47,16 @@
 - Training: Trains the model for 50 epochs using the fit method, with callbacks for ModelCheckpoint and EarlyStopping to prevent overfitting and improve model convergence.
 
 ## Conclusions
-- Conclusion 1 from the analysis
+- ## Conclusion 1 from the analysis of the model-1
+  ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
+- ## Observations:
+-         The model achieves high training accuracy (~90%) but struggles with validation accuracy, which fluctuates around 55-80%, indicating overfitting.
+-         Training loss decreases steadily, while validation loss fluctuates after an initial decline.
+-         The performance gap between training and validation confirms the model lacks generalization.
+-         Overfitting is likely due to limited and less diverse training data.
+- ## Solutions:
+-          To address this, data augmentation, regularization (dropout, L2), early stopping, and batch normalization are recommended to improve generalization.
+  
 - Conclusion 2 from the analysis
 - Conclusion 3 from the analysis
 - Conclusion 4 from the analysis
