@@ -57,17 +57,18 @@
 - ## Solutions:
 -   To address this, data augmentation, regularization (dropout, L2), early stopping, and batch normalization are recommended to improve generalization.
   
-- ## Conclusion 2 from the analysis of the model-1
+- ## Conclusion 2 from the analysis of the model-2
+  ![image](https://github.com/user-attachments/assets/2d150751-8e96-4079-8295-f016a9a478a1)
+
+- ## Observations:
+-   
+- ## Solutions:
+- ## Conclusion 3 from the analysis of the model-3
   ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
 - ## Observations:
 -   
 - ## Solutions:
-- ## Conclusion 3 from the analysis of the model-1
-  ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
-- ## Observations:
--   
-- ## Solutions:
-- ## Conclusion 4 from the analysis of the model-1
+- ## Conclusion 4 from the analysis of the model-4
   ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
 - ## Observations:
 -  
