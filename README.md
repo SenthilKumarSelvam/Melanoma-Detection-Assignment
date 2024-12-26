@@ -28,29 +28,10 @@
 -   ## No. of images belonging to a Type v/s Types of Skin Lesion
   ![image](https://github.com/user-attachments/assets/c863fe2c-f455-4b82-8e52-6e37a3bc0c57)
 
-## Building,-Training,-and-Evaluating-a-CNN-Model-for-Multi-Class-Classification-with-Data-Augmentation-and-Class-Imbalance-Handling
-- ## Model Approach for Skin Cancer Classification using Skin Lesion Images
-- Rescaling Layer: Normalizes image pixel values from [0, 255] to [0, 1].
-- Convolutional Layer: Applies convolution to reduce image size and extract features.
-- Pooling Layer: Reduces spatial dimensions and computational complexity.
-- Dropout Layer: Randomly sets input units to zero during training to prevent overfitting.
-- Flatten Layer: Converts multi-dimensional data into a one-dimensional array for the classifier.
-- Dense Layer: Fully connects neurons from previous layers to learn complex patterns.
-- Activation Function (ReLU): Applies ReLU activation to help the model learn faster and avoid vanishing gradients.
-- Activation Function (Softmax): Converts the final outputs into probabilities for each class in multiclass classification.
-- Data Augmentation: Applies random transformations (rotation, scaling, flipping) to increase training data diversity and improve generalization.
-- Normalization: Scales pixel values to the range [0, 1] using Rescaling(1./255) to stabilize training and accelerate convergence.
-- Convolutional Layers (3 layers): Sequentially applies 3 convolutional layers with increasing filter counts (16, 32, 64) and ReLU activations, with 'same' padding to preserve spatial dimensions.
-- Pooling Layers: Max-pooling layers follow each convolution to downsample feature maps and retain important information, reducing complexity.
-- Dropout Layer (0.2 rate): Prevents overfitting by randomly dropping neurons after the last max-pooling layer.
-- Flatten Layer: Flattens 2D feature maps into a 1D vector for input into the fully connected layers.
-- Fully Connected Layers: Two dense layers (128 neurons and output layer) with ReLU activations, followed by the final classification output.
-- Output Layer: The number of neurons corresponds to the number of target labels, outputting classification probabilities.
-- Model Compilation: Compiles the model with Adam optimizer, Sparse Categorical Crossentropy loss, and accuracy as the evaluation metric.
-- Training: Trains the model for 50 epochs using the fit method, with callbacks for ModelCheckpoint and EarlyStopping to prevent overfitting and improve model convergence.
-
-## Conclusions
-- ## Conclusion 1 from the analysis of the model-1
+## Model development and its observation
+- ## Model 1: Developing a CNN Model for Accurate 9-Class Classification with Pixel Value Normalization Using Rescaling Layer
+- This CNN model is designed for 9-class image classification. It normalizes pixel values to the [0, 1] range using a Rescaling layer and consists of three convolutional layers with ReLU activation and max-pooling, followed by a flattening layer and two dense layers (128 units and 9 output classes).
+- ## Conclusions
   ![image](https://github.com/user-attachments/assets/24a4f3b4-8d27-49b5-8a54-848717853ce3)
 - ## Observations:
 -   The model achieves high training accuracy (~90%) but struggles with validation accuracy, which fluctuates around 55-80%, indicating overfitting.
