@@ -29,22 +29,22 @@
 - ## Model Approach for Skin Cancer Classification using Skin Lesion Images
 - Rescaling Layer: Normalizes image pixel values from [0, 255] to [0, 1].
 - Convolutional Layer: Applies convolution to reduce image size and extract features.
-Pooling Layer: Reduces spatial dimensions and computational complexity.
-Dropout Layer: Randomly sets input units to zero during training to prevent overfitting.
-Flatten Layer: Converts multi-dimensional data into a one-dimensional array for the classifier.
-Dense Layer: Fully connects neurons from previous layers to learn complex patterns.
-Activation Function (ReLU): Applies ReLU activation to help the model learn faster and avoid vanishing gradients.
-Activation Function (Softmax): Converts the final outputs into probabilities for each class in multiclass classification.
-Data Augmentation: Applies random transformations (rotation, scaling, flipping) to increase training data diversity and improve generalization.
-Normalization: Scales pixel values to the range [0, 1] using Rescaling(1./255) to stabilize training and accelerate convergence.
-Convolutional Layers (3 layers): Sequentially applies 3 convolutional layers with increasing filter counts (16, 32, 64) and ReLU activations, with 'same' padding to preserve spatial dimensions.
-Pooling Layers: Max-pooling layers follow each convolution to downsample feature maps and retain important information, reducing complexity.
-Dropout Layer (0.2 rate): Prevents overfitting by randomly dropping neurons after the last max-pooling layer.
-Flatten Layer: Flattens 2D feature maps into a 1D vector for input into the fully connected layers.
-Fully Connected Layers: Two dense layers (128 neurons and output layer) with ReLU activations, followed by the final classification output.
-Output Layer: The number of neurons corresponds to the number of target labels, outputting classification probabilities.
-Model Compilation: Compiles the model with Adam optimizer, Sparse Categorical Crossentropy loss, and accuracy as the evaluation metric.
-Training: Trains the model for 50 epochs using the fit method, with callbacks for ModelCheckpoint and EarlyStopping to prevent overfitting and improve model convergence.
+- Pooling Layer: Reduces spatial dimensions and computational complexity.
+- Dropout Layer: Randomly sets input units to zero during training to prevent overfitting.
+- Flatten Layer: Converts multi-dimensional data into a one-dimensional array for the classifier.
+- Dense Layer: Fully connects neurons from previous layers to learn complex patterns.
+- Activation Function (ReLU): Applies ReLU activation to help the model learn faster and avoid vanishing gradients.
+- Activation Function (Softmax): Converts the final outputs into probabilities for each class in multiclass classification.
+- Data Augmentation: Applies random transformations (rotation, scaling, flipping) to increase training data diversity and improve generalization.
+- Normalization: Scales pixel values to the range [0, 1] using Rescaling(1./255) to stabilize training and accelerate convergence.
+- Convolutional Layers (3 layers): Sequentially applies 3 convolutional layers with increasing filter counts (16, 32, 64) and ReLU activations, with 'same' padding to preserve spatial dimensions.
+- Pooling Layers: Max-pooling layers follow each convolution to downsample feature maps and retain important information, reducing complexity.
+- Dropout Layer (0.2 rate): Prevents overfitting by randomly dropping neurons after the last max-pooling layer.
+- Flatten Layer: Flattens 2D feature maps into a 1D vector for input into the fully connected layers.
+- Fully Connected Layers: Two dense layers (128 neurons and output layer) with ReLU activations, followed by the final classification output.
+- Output Layer: The number of neurons corresponds to the number of target labels, outputting classification probabilities.
+- Model Compilation: Compiles the model with Adam optimizer, Sparse Categorical Crossentropy loss, and accuracy as the evaluation metric.
+- Training: Trains the model for 50 epochs using the fit method, with callbacks for ModelCheckpoint and EarlyStopping to prevent overfitting and improve model convergence.
 
 ## Conclusions
 - Conclusion 1 from the analysis
